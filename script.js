@@ -1,10 +1,9 @@
-let student = {
-  name: "John",
-  age: 30,
-  city: "New York"
+//your JS code here. If required.
+const student = {
+	name : "John Doe",
 };
-function getKeys(student) {
-return Object.keys(student);
+Object.prototype.getKeys = function () {
+	return Object.keys(this);
 }
-
-console.log(getKeys(student)); // Output: ["name", "age", "city"]
+ 
+console.log(student.getKeys());
