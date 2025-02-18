@@ -1,8 +1,8 @@
 //your JS code here. If required.
 const obj = {
-	name : "Divya"
+	name : "Divya",
 };
 getKeys(obj){
-	return Object.Keys(obj);
+	return Object.keys(obj);
 }
 // console.log(getKeys(obj));
