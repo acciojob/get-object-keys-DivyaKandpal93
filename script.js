@@ -1,5 +1,5 @@
 // Function to get all keys from the object
-const student = {
+let student = {
 	name: "Divya"
 };
 function getKeys(student) {
