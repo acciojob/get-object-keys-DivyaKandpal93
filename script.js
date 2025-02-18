@@ -1,5 +1,4 @@
 // Create the student object
- module.exports = getKeys;
 const student = {
   name: "John",
 };
@@ -9,6 +8,5 @@ function getKeys(obj) {
   return Object.keys(obj);
 }
 
-// Testing the function
-let result = getKeys(student); 
-return result;
+// Export the function
+module.exports = getKeys;
