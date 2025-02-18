@@ -1,4 +1,5 @@
 // Create the student object
+ module.exports = getKeys;
 const student = {
   name: "John",
 };
