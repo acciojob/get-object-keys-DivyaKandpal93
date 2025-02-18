@@ -11,4 +11,3 @@ function getKeys(obj) {
 // Testing the function
 let result = getKeys(student); 
 return result;
-console.log(result);
