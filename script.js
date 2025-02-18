@@ -5,4 +5,4 @@ const obj = {
 getKeys(obj){
 	return Object.Keys(obj);
 }
-console.log(getKeys(obj));
+// console.log(getKeys(obj));
