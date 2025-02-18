@@ -1,6 +1,7 @@
 // Function to get all keys from the object
-function getKeys(obj) {
-  return Object.keys(obj);
+const student = {
+	name: "Divya",
+};
+function getKeys(student) {
+  return Object.keys(student);
 }
-
-module.exports = getKeys;
