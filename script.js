@@ -9,4 +9,6 @@ function getKeys(obj) {
 }
 
 // Testing the function
-console.log(getKeys(student)); // Output: ["name"]
+let result = getKeys(student); 
+return result;
+console.log(result);
