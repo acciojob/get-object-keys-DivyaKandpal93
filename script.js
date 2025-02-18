@@ -2,7 +2,7 @@
 const obj = {
 	name : "Divya",
 };
-getKeys(obj){
+function getKeys(obj){
 	return Object.keys(obj);
 }
 // console.log(getKeys(obj));
