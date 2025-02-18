@@ -1,8 +1,12 @@
-//your JS code here. If required.
-const obj = {
-	name : "Divya",
+// Create the student object
+const student = {
+  name: "John",
 };
-function getKeys(obj){
-	return Object.keys(obj);
+
+// Function to get all keys from the object
+function getKeys(obj) {
+  return Object.keys(obj);
 }
-// console.log(getKeys(obj));
+
+// Testing the function
+console.log(getKeys(student)); // Output: ["name"]
